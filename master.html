@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Playtime Sports Games, LLC</title>
+  <meta name="author" content="Brad Davis">
+	<meta name="description" content="Playtime Sports Games, LLC takes pride in providing professional entertainment services for events all over middle Tennessee. These attractions include Photo Booths, Arcade Machines, Skill Games, and Inflatables.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="blue">
+  <meta name="msapplication-navbutton-color" content="blue">
+  <meta name="apple-mobile-web-app-status-bar-style" content="blue">
+  <style name="AppTheme" parent="AppBaseTheme">
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+    }
+    html{
+      font-family: 'Bree Serif', serif;
+      background-color: white;
+    }
+    .header{
+      position: relative;
+      width: 25vw;
+      height: 17.5vw;
+      opacity: .3;
+      z-index: 1;
+      background-color: white;
+    }
+    #header{
+      position: absolute;
+      position: absolute;
+      animation-name: flashing;
+      animation-duration: 1.5s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-play-state: running;
+      animation-delay: 0s;
+	    -webkit-text-stroke-width: .2vw;
+      -webkit-text-stroke-color: black;
+      top: -2.8vw;
+      padding-top:3vw;
+      font-size: 7vw;
+      width: 100vw;
+      text-align: center;
+      z-index: 2;
+    }
+    #tagline{
+      position: absolute;
+      animation-name: flashing;
+      animation-duration: 1.5s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-play-state: running;
+      animation-delay: 0s;
+	    -webkit-text-stroke-width: .2vw;
+      -webkit-text-stroke-color: black;
+      top: 9vw;
+      padding-top: 1vw;
+      padding-bottom: 0px;
+      font-size: 4.5vw;
+      width: 100vw;
+      text-align: center;
+      z-index: 2;
+    }
+    @keyframes flashing {
+      from {color: blue;}
+      to {color: red;}
+    }
+    .contact {
+      position: sticky;
+      width: 100vw;
+      height: 9vw;
+      background-color: #c4cad3;
+      top: 0vw;
+      text-align: center;
+      font-size: 6vw;
+      color: black;
+      line-height: 1;
+      z-index: 3;
+    }
+    #contact {
+      position: relative;
+      width: 100vw;
+      background-color: #c4cad3;
+      vertical-align: middle;
+      line-height: 1;
+      font-weight: bolder;
+      text-decoration: none;
+      font-weight: bolder;
+      text-decoration: none;
+    }
+    #email{
+      display: inline-block;
+      position: relative;
+      top: 1vw;
+      width: 7vw;
+      height: 7vw;
+      z-index: 4;
+    }
+    #photoBooth{
+      width:15.13vw;
+      height: 35vw;
+    }
+    .pages{
+      border: .75vw solid black;
+      position: relative;
+      display: inline-flex;
+      background-color: #c4cad3;
+      margin-left: 2vw;
+      margin-top: 2.5vw;
+      width: 45.5vw;
+      height: 48vw;
+      opacity: 1;
+    }
+    .pages:hover{
+      border: .75vw solid red;
+      background-color: black;
+    }
+    #linkText{
+      width: 45.5vw;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      font-size: 3.5vw;
+      font-weight: bold;
+    }
+    #mainImage{
+      margin: 0px;
+      padding: 0px;
+      width: 45.5vw;
+      height: 35vw;
+    }
+
+  </style>
+</head>
+
+<body>
+
+
+      <script>
+
+        document.write('<h1><img src="arcade11.png" class="header"><img src="photoBooth1.jpg" class="header"><img src="spongeball2.png" class="header"><img src="tents1.png" class="header">');
+        document.write('<h1 id="header">PLAYTIME SPORTS GAMES, LLC.</h1>');
+        document.write('<h1 id="tagline">FOR INDOOR AND OUTDOOR EVENTS</h1>');
+
+        document.write('<div class="contact"><a href="mailto:damondavis07@comcast.net" id="contact"><img src="email.png" id="email"></a> &nbsp &nbsp &nbsp &nbsp (615) 415-4244</div>');
+
+        document.write('<div class="pages"><a href="www.playtimesportsgames.com/PhotoBooth" id="linkText"><img src="photoBooth3.png" id="photoBooth"><img src="photoBooth4.png" id="photoBooth"><img src="photoBooth5.png" id="photoBooth"><br>PHOTO BOOTH</a></div>');
+        document.write('<div class="pages"><a href="www.playtimesportsgames.com/ChristmasDecorAndLighting" id="linkText"><img src="arcade11.png" id="mainImage"><br>CHRISTMAS <br> DECOR & LIGHTING</a></div>');
+
+        document.write('<div class="pages"><a href="www.playtimesportsgames.com/ObstacleCourses" id="linkText"><img src="obstacle1.png" id="mainImage"><br>OBSTACLE COURSES (INFLATABLES)</a></div>');
+        document.write('<div class="pages"><a href="www.playtimesportsgames.com/Arcade" id="linkText"><img src="arcade11.png" id="mainImage"><br>CLASSIC ARCADES (INDOOR/OUTDOOR)</a></div>');
+
+        document.write('<div class="pages"><a href="www.playtimesportsgames.com/Spongeball" id="linkText"><img src="spongeball2.png" id="mainImage"><br>SPONGE BALL CHALLENGE</a></div>');
+        document.write('<div class="pages"><a href="www.playtimesportsgames.com/SquareGames" id="linkText"><img src="square2.png" id="mainImage"><br>9 SQUARE & 4 SQUARE VOLLEYBALL</a></div>');
+
+        document.write('<div class="pages"><a href="www.playtimesportsgames.com/Slides" id="linkText"><img src="slides1.png" id="mainImage"><br>SLIDES <br>(INFLATABLES)</a></div>');
+        document.write('<div class="pages"><a href="www.playtimesportsgames.com/BounceHouse" id="linkText"><img src="bounce1.png" id="mainImage"><br>BOUNCE FOR KIDS (INFLATABLES)</a></div>');
+
+        document.write('<div class="pages"><a href="www.playtimesportsgames.com/SportsGames" id="linkText"><img src="sports1.png" id="mainImage"><br>SPORTS TOSS AND KICK GAMES (INFLATABLES)</a></div>');
+        document.write('<div class="pages"><a href="www.playtimesportsgames.com/BungeeRun" id="linkText"><img src="bungee.png" id="mainImage"><br>BUNGEE CORD RUN (INFLATABLES)</a></div>');
+
+        document.write('<div class="pages"><a href="www.playtimesportsgames.com/TentsAndShades" id="linkText"><img src="tents21.png" id="mainImage"><br>TENTS AND SHADES</a></div>');
+        document.write('<div class="pages"><a href="www.playtimesportsgames.com/MediaNet" id="linkText"><img src="slides1.png" id="mainImage"><br>MEDIA NET <br>(SIGNS AND BANNERS)</a></div>');
+
+        document.write('<div class="pages"><a href="www.playtimesportsgames.com/Carnival" id="linkText"><img src="bounce1.png" id="mainImage"><br>CARNIVAL ATTRACTIONS</a></div>');
+        document.write('<div class="pages"><a href="www.playtimesportsgames.com/ConcessionsSnacks" id="linkText"><img src="sports1.png" id="mainImage"><br>CONCESSIONS/SNACKS</a></div>');
+
+        document.write('<div class="pages"><a href="www.playtimesportsgames.com/GeneratorsLights" id="linkText"><img src="bungee1.png" id="mainImage"><br>GENERATORS AND LIGHTS</a></div>');
+        document.write('<div class="pages"><a href="www.playtimesportsgames.com/TableGames" id="linkText"><img src="tents21.png" id="mainImage"><br>TABLE GAMES</a></div>');
+
+        document.write('<p><br><br></p>')
+
+      </script>
+
+
+
+
+</body>
+</html>
